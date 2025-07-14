@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reva Tag</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(to bottom right, #0f0f0f, #1a1a1a);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      line-height: 1.6;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #00ffc8;
+    }
+    h2 {
+      color: #00ffc8;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0.5rem auto;
+    }
+
+    .buttons {
+      margin: 2rem 0;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    .button {
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #111;
+      background-color: #00ffc8;
+      border: none;
+      border-radius: 14px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+      box-shadow: 0 0 10px rgba(0, 255, 200, 0.3);
+    }
+
+    .button:hover {
+      background-color: #00d6a9;
+      transform: scale(1.08) rotate(-1deg);
+    }
+
+    section {
+      background: rgba(40, 40, 40, 0.9);
+      padding: 2rem;
+      border-radius: 18px;
+      max-width: 750px;
+      width: 100%;
+      box-shadow: 0 0 30px rgba(0, 255, 200, 0.1);
+      margin-bottom: 3rem;
+      animation: fadeIn 1.5s ease-in;
+      backdrop-filter: blur(10px);
+    }
+
+    ol {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 1rem;
+      transition: transform 0.2s;
+    }
+    li:hover {
+      transform: translateX(5px);
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+
+    .highlight {
+      color: #00ffc8;
+      font-weight: bold;
+    }
+
+    .external-links {
+      margin-top: 2rem;
+      background-color: #121212;
+      padding: 1.5rem;
+      border-radius: 14px;
+      box-shadow: 0 0 15px rgba(0, 255, 200, 0.05);
+    }
+
+    .external-links p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: #00ffc8;
+    }
+
+    .external-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.5rem 0;
+    }
+
+    .external-links li {
+      margin-bottom: 0.8rem;
+    }
+
+    .external-links a {
+      color: #8efce4;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .external-links a:hover {
+      color: #00ffc8;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reva Tag</h1>
+    <p>A <span class="highlight">modified version</span> of Gorilla Tag with exciting features and a great community.</p>
+    <p>Enjoy fun mods like <span class="highlight">Long Arms</span>, <span class="highlight">Speed Boost</span>, and much more!</p>
+  </header>
+
+  <div class="buttons">
+    <a class="button" href="https://drive.google.com/file/d/16GE9dY1F-UFM8M7lC4YuGVn-KZI6SAP8/view?usp=sharing" target="_blank">🎮 Download APK</a>
+    <a class="button" href="https://discord.gg/AEMzrDxzt8" target="_blank">💬 Join Our Discord</a>
+  </div>
+
+  <section id="download">
+    <h2>How to Download Reva Tag</h2>
+    <ol>
+      <li>Click the <strong>Download</strong> button on this page.</li>
+      <li>Open <strong>Mobile VR Station</strong> or your file manager on your VR headset.</li>
+      <li>Go to the <strong>Downloads</strong> folder.</li>
+      <li>Find the file named <strong>RevaTag.apk</strong>.</li>
+      <li>Tap it and choose <strong>Install</strong>.</li>
+      <li>Wait a few seconds — and you're ready to play! 🎮</li>
+    </ol>
+
+    <div class="external-links">
+      <p>📲 <strong>Mobile VR Station Links</strong></p>
+      <ul>
+        <li><a href="https://www.meta.com/en-gb/experiences/mobile-vr-station/3887008398005125/" target="_blank">Official Meta Store Page</a></li>
+        <li><a href="https://www.youtube.com/watch?v=TyJozGmSa-Y" target="_blank">Watch: How to install APKs with Mobile VR Station</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Reva Tag. Made with 💚 for the VR community.
+  </footer>
+</body>
+</html>
